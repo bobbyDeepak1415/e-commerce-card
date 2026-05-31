@@ -1,4 +1,4 @@
-const CardImage = ({ src, alt = "Card Image", className = "" }) => {
+const CardImage = ({ src, alt = "Card Image" }) => {
   return (
     <div className={`w-full h-48 overflow-hidden rounded-t-lg`}>
       {src ? (

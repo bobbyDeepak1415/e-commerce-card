@@ -3,6 +3,8 @@ import Card from "./components/Card/Card";
 import CardImage from "./components/Card/CardImage";
 import CardHeader from "./components/Card/CardHeader";
 import CardTitle from "./components/Card/CardTitle";
+import CardBody from "./components/Card/CardBody";
+import CardFooter from "./components/Card/CardFooter";
 
 function App() {
   return (
@@ -31,11 +33,47 @@ function App() {
                       {card.category}
                     </span>
                   )}
-                  <CardTitle className={card.id%2===0 ? "text-blue-800":""}>{card.title}</CardTitle>
+                  <CardTitle
+                    className={card.id % 2 === 0 ? "text-blue-800" : ""}
+                  >
+                    {card.title}
+                  </CardTitle>
+                  {card.rating && (
+                    <div className="flex items-center gap-1">
+                      <span>⭐</span>
+                      <span>{card.rating}/5.0</span>
+                    </div>
+                  )}
                 </CardHeader>
+                {card.description ? (
+                  <CardBody
+                    className={card.id % 2 === 0 ? "text-blue-800" : ""}
+                  >
+                    {card.description}
+                  </CardBody>
+                ) : (
+                  <CardBody className="italic text-gray-400">
+                    No description for this destination
+                  </CardBody>
+                )}
+                <CardFooter
+                  className={card.id % 2 === 0 ? "border-blue-200" : ""}
+                >
+                  <div className="flex items-center justify-between">
+                    {card.price ? (
+                      <span className="text-2xl font-bold text-gray-800">{card.price}</span>
+                    ) : (
+                      <span className="text-gray-500 text-sm">Contact for pricing</span>
+                    )}
+                    <button className="px-5 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors  text-white font-medium">Book now</button>
+                  </div>
+                </CardFooter>
               </div>
             </Card>
           ))}
+        </div>
+        <div>
+          <Card></Card>
         </div>
       </div>
     </div>

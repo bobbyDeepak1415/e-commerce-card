@@ -47,4 +47,10 @@
 
 26. Below this category span we render the CardTitle. here too if the id is divisible by 2 we conditionally change the text color to blue.
 
-27. 
+27. below this category we conditionally render if there is a rating, inside a span tag inside of a div
+
+28. below this if there is a description,then we conditionally render a CardBody with the description inside of it and if there isnt then we render a CardBody and return a fallback text("no description"). here too we change the text color if the id is divisible by 2
+
+29. below the cardBody we have render the CardFooter inside which there is a div. here we conditionally render the price in a span if the price is available or we render another span with a fallback text.
+
+30. after this price span, we add a call to action button and style it
