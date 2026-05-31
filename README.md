@@ -37,4 +37,14 @@
 
 21. we add the grid property to this div for different screen sizes.
 
-22. 
+22. we map and return a card and use its id as the key. we conditionally change the variant color if the id is divisible by 2 or not.
+
+23. we conditionally render the CardImage here if there is an image available.
+
+24. below this image we have a div which is the inner content wrapper
+
+25. in this content wrapper we first have cardHeader. here if there is a category present we conditionally render it in a span which will be a child to CardHeader.
+
+26. Below this category span we render the CardTitle. here too if the id is divisible by 2 we conditionally change the text color to blue.
+
+27. 
