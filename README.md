@@ -28,3 +28,11 @@
 16. In the cardBody we put the description or the main content.this also takes children and className. add styling and test it in the app.jsx
 
 17. inside cardFooter component, we can have prices or buttons,links or secondary info. This component also takes children and className. add styling and test it out in app.jsx
+
+18. in app.jsx we remove everything and open a div which will be the outer div. Inside of it we have another div which will be the content wrapper. add styling to both. Inside of this content wrapper div we will have everything else
+
+19. inside this content wrapper we have 3 different divs. the first one is for the header of the layout.thi contains a h1 and a p tag for subtext.style it accordingly
+
+20. the second div is the actual card grid.Here we map through the objects in the cardsData array and return a Card. This card will furthur contain all the card children like cardheader,cardTitle,CardBody,CardFooter etc. this second div is the cards grid.
+
+21.
