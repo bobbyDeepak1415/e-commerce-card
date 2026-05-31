@@ -11,7 +11,7 @@
 7. we combine all these styles using template literals with back ticks in the className for the card component
 
 8. added basic styling to the outermost div in the app.jsx
-9. in the app.jsx component added a few children inside the Card component to test if evrything is working and then removed them
+9. in the app.jsx component added a few children inside the Card component to test if evrything is working
 
 10. pass the variant and padding to card in app.jsx
 
@@ -20,3 +20,5 @@
 12. In the cardImage component we gracefully render a placeholder fallback ui in case the src link fails(defensive programming). this component takes src for the image link and then alt tag for accessibility and a className for additional custom css styles
 
 13. we conditionally render, if the src link exists then we render an image or we render a span saying no image available.we also add styling.
+
+14. CardHeader is the top section of the card component where we can have titles or  badges or any other content

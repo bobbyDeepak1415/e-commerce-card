@@ -1,8 +1,8 @@
 
-const CardHeader = () => {
+const CardHeader = ({children,className=''}) => {
   return (
-    <div>
-      
+    <div className={`${className} mb-4`}> 
+      {children}
     </div>
   )
 }
