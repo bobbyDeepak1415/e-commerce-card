@@ -21,6 +21,10 @@
 
 13. we conditionally render, if the src link exists then we render an image or we render a span saying no image available.we also add styling.
 
-14. CardHeader is the top section of the card component where we can have titles or  badges or any other content. this takes children and a className, we add simple styling to this and test it out by adding it in the card in app.jsx
+14. CardHeader is the top section of the card component where we can have titles or badges or any other content. this takes children and a className, we add simple styling to this and test it out by adding it in the card in app.jsx
 
-15. The cardTitle is inside of the cardHeader,for the title. this is styled to be big and bold,
+15. The cardTitle is inside of the cardHeader,for the title. this is styled to be big and bold. apply styling accordingly and test it out in the app.jsx.
+
+16. In the cardBody we put the description or the main content.this also takes children and className. add styling and test it in the app.jsx
+
+17. inside cardFooter component, we can have prices or buttons,links or secondary info. This component also takes children and className. add styling and test it out in app.jsx

@@ -7,7 +7,6 @@ function App() {
         <p>Hello</p>
 
         <h2>This is working</h2>
-        
       </Card>
     </div>
   );

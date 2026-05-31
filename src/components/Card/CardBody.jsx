@@ -1,8 +1,8 @@
 
-const CardBody = () => {
+const CardBody = ({className="",children}) => {
   return (
-    <div>
-      
+    <div className={`${className} text-gray-600`}>
+      {children}
     </div>
   )
 }
