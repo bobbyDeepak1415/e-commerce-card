@@ -1,4 +1,5 @@
 import Card from "./components/Card/Card";
+import CardHeader from "./components/Card/CardHeader";
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
         <p>Hello</p>
 
         <h2>This is working</h2>
+        <CardHeader>
+        <p>header</p>
+        </CardHeader>
       </Card>
     </div>
   );

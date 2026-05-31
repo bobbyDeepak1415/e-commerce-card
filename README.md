@@ -21,4 +21,6 @@
 
 13. we conditionally render, if the src link exists then we render an image or we render a span saying no image available.we also add styling.
 
-14. CardHeader is the top section of the card component where we can have titles or  badges or any other content
+14. CardHeader is the top section of the card component where we can have titles or  badges or any other content. this takes children and a className, we add simple styling to this and test it out by adding it in the card in app.jsx
+
+15. 
