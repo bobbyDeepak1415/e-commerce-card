@@ -35,4 +35,6 @@
 
 20. the second div is the actual card grid.Here we map through the objects in the cardsData array and return a Card. This card will furthur contain all the card children like cardheader,cardTitle,CardBody,CardFooter etc. this second div is the cards grid.
 
-21.
+21. we add the grid property to this div for different screen sizes.
+
+22. 
