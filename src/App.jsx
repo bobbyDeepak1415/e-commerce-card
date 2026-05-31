@@ -1,5 +1,4 @@
 import Card from "./components/Card/Card";
-import CardHeader from "./components/Card/CardHeader";
 
 function App() {
   return (
@@ -8,12 +7,7 @@ function App() {
         <p>Hello</p>
 
         <h2>This is working</h2>
-        <CardHeader>
-          <p>header</p>
-        </CardHeader>
-        <CardHeader className="text-red-800 italic">
-          <p>header</p>
-        </CardHeader>
+        
       </Card>
     </div>
   );
