@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="h-screen">
       <Card>
+        <p>Hello</p>
         
       </Card>
     </div>

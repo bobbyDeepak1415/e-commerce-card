@@ -1,28 +1,10 @@
-const Card = ({
-  className = "",
-  variant = "default",
-  padding = "normal",
-  children,
-  hover = true,
-}) => {
-  const baseStyles = "rounded-lg shadow-md";
 
-  const variants = {
-    default: "",
-    success: "",
-    primary: "",
-    dark: "",
-  };
-
-  const hoveraStyles = {};
-
-  const paddingStyles = {};
-
+const Card = () => {
   return (
-    <div className={`${padding}${variant} ${hover} ${className}`}>
-      {children}
+    <div>
+      
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card
