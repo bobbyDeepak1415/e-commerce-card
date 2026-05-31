@@ -31,7 +31,7 @@
 
 18. in app.jsx we remove everything and open a div which will be the outer div. Inside of it we have another div which will be the content wrapper. add styling to both. Inside of this content wrapper div we will have everything else
 
-19. inside this content wrapper we have 3 different divs. the first one is for the header of the layout.thi contains a h1 and a p tag for subtext.style it accordingly
+19. inside this content wrapper we have 3 different divs. the first one is for the header of the layout.this contains a h1 and a p tag for subtext.style it accordingly
 
 20. the second div is the actual card grid.Here we map through the objects in the cardsData array and return a Card. This card will furthur contain all the card children like cardheader,cardTitle,CardBody,CardFooter etc. this second div is the cards grid.
 
@@ -54,3 +54,7 @@
 29. below the cardBody we have render the CardFooter inside which there is a div. here we conditionally render the price in a span if the price is available or we render another span with a fallback text.
 
 30. after this price span, we add a call to action button and style it
+
+31. after this, inside this content wrapper div(the second div), below the second second div(card grid),now we have another div,where we simply explain the project structure. 
+
+32. in this div we render another card.
