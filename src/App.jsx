@@ -9,7 +9,10 @@ function App() {
 
         <h2>This is working</h2>
         <CardHeader>
-        <p>header</p>
+          <p>header</p>
+        </CardHeader>
+        <CardHeader className="text-red-800 italic">
+          <p>header</p>
         </CardHeader>
       </Card>
     </div>
