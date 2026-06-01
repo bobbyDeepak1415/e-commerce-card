@@ -55,6 +55,6 @@
 
 30. after this price span, we add a call to action button and style it
 
-31. after this, inside this content wrapper div(the second div), below the second second div(card grid),now we have another div,where we simply explain the project structure. 
+31. after this, inside this content wrapper div(the second div), below the second second div(card grid),now we have another div,where we simply explain the project structure.
 
-32. in this div we render another card.
+32. in this div we render another card. for the project structure
