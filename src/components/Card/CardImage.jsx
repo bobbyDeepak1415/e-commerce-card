@@ -3,10 +3,9 @@ const CardImage = ({ src, alt = "Card Image" }) => {
     <div className={`w-full h-48 overflow-hidden rounded-t-lg`}>
       {src ? (
         <img
-          className="w-full h-full object-cover"
+          className={`w-full h-full object-cover`}
           alt={alt}
           src={src}
-          className={`w-full h-full object-cover`}
         />
       ) : (
         <div
